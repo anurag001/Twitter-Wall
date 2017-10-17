@@ -1,0 +1,101 @@
+.banner{
+	font-family:arial;
+	color:#fff;
+}
+.right{
+	float:right;
+	display: inline-flex;
+}
+.icon-color:{
+	background: ;
+	color: #fff;
+}
+.glow:hover{
+	color:#17a2b8;
+}
+
+.move{
+  color:#17a2b8;
+  background-color: #fff;
+  opacity: 0.1;
+  width:45px;
+}
+.move:hover{
+  background-color:#17a2b8;
+  color:#fff;
+}
+
+.loader{
+  position: relative;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.loader div{
+  position: relative;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  animation: load 0.7s linear infinite;
+  background: linear-gradient(#f1c40f, #3498db, #e74c3c);
+}
+
+.loader div::after{
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  height: 30px;
+  width: 30px;
+  background: #ddd;
+  border-radius: 50%;
+}
+.white{
+  text-decoration:none;
+  color:#fff;
+}
+.white:hover{
+  text-decoration:none;
+  color:#fff;
+}
+
+.footer{
+  bottom:0px;
+  width: 100%;
+  position:relative;
+}
+
+#heroic{
+  background-image:url('../images/2.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-clip: padding-box;
+  background-attachment: fixed;
+  background-repeat: no-repeat; 
+  height:500px;
+  width: 100%;
+  margin: 0px;
+  border-radius:0px;
+}
+.bg-fluid{
+    opacity: 0.65;
+}
+.img{
+  height: 100px;
+  width:100%;
+  display: inline-flex;
+  overflow: hidden;
+}
+
+.img-banner{
+  height: 100px;
+  width:100%;
+  display: inline-flex;
+  overflow: hidden;
+}
+.tweet-display{
+  width: 100%;
+  height:192px;
+  overflow:auto;
+}
